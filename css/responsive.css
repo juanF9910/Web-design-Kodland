@@ -1,0 +1,82 @@
+@media (max-width: 1024px) {
+    .carousel__pista .azul__item {
+      flex: 0 0 40%;
+    }
+  
+    .imagen1__texto {
+      font-size: 1.4rem;
+      text-align: center;
+      margin: 0 auto;
+    }
+  
+    .imagen2__texto {
+      max-width: 90%;
+      text-align: center;
+    }
+  
+    .imagen2__imagen {
+      width: 60%;
+    }
+  }
+
+
+@media (max-width: 600px) {
+    .header {
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .header__button {
+      margin-left: 0;
+      font-size: 1.5rem;
+    }
+
+    .imagen1__titulo {
+      font-size: 2.5rem;
+    }
+
+    .imagen1__texto {
+      font-size: 1.2rem;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .imagen1__boton {
+      font-size: 1.2rem;
+      margin-top: 2rem;
+      align-self: center;
+    }
+
+    .carousel__pista {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .carousel__pista .azul__item {
+      flex: 0 0 80%;
+      max-width: 90%;
+    }
+
+    .carousel__btn {
+      font-size: 1.2rem;
+      padding: 0.3rem 0.6rem;
+    }
+
+    .imagen2 {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .imagen2__texto,
+    .imagen2__imagen {
+      max-width: 90%;
+      position: static;
+    }
+
+    footer {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+
+  

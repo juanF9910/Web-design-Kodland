@@ -1,0 +1,59 @@
+.imagen1 {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 2rem;
+    box-sizing: border-box;
+    background-image: url("/images/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .imagen1__fondo {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+
+  .imagen1__titulo,
+  .imagen1__texto,
+  .imagen1__boton {
+    position: relative;
+    z-index: 1;
+    color: white;
+    margin-left: 5vw;
+    max-width: 100%;
+  }
+
+  .imagen1__titulo {
+    font-size: clamp(2.5rem, 6vw, 6rem);
+    font-weight: bold;
+  }
+
+  .imagen1__texto {
+    font-size: 1.5rem;
+    max-width: 600px;
+  }
+
+  .imagen1__boton {
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    background-color: #cbf3f0;
+    color: black;
+    margin-top: 10vh;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+  }
+
+  .imagen1__boton:hover {
+    background-color: #0056b3;
+    color: white;
+  }
